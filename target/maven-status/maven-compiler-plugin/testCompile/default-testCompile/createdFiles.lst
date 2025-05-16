@@ -1,0 +1,4 @@
+com\mistletoe\estaciona\TestApplication.class
+com\mistletoe\estaciona\ArchitectureTest.class
+com\mistletoe\estaciona\TestcontainersConfiguration.class
+com\mistletoe\estaciona\taskmanagement\service\TaskServiceIT.class

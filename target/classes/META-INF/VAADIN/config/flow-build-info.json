@@ -1,0 +1,19 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento",
+  "node.version": "v22.14.0",
+  "frontend.hotdeploy": true,
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\src\\main\\frontend",
+  "connect.javaSourceFolder": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\src\\main\\java",
+  "javaResourceFolder": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\src\\main\\resources",
+  "connect.applicationProperties": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\src\\main\\frontend\\generated",
+  "pnpm.enable": false,
+  "bun.enable": false,
+  "require.home.node": false,
+  "build.folder": "target",
+  "react.enable": true
+}

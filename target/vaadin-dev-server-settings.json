@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/HP/Tercer Ciclo proyectos/Nueva carpeta/ProyectoGrupal/GestionEStacionamiento/estacionamiento/src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/HP/Tercer Ciclo proyectos/Nueva carpeta/ProyectoGrupal/GestionEStacionamiento/estacionamiento/src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/HP/Tercer Ciclo proyectos/Nueva carpeta/ProyectoGrupal/GestionEStacionamiento/estacionamiento/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/HP/Tercer Ciclo proyectos/Nueva carpeta/ProyectoGrupal/GestionEStacionamiento/estacionamiento/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/HP/Tercer Ciclo proyectos/Nueva carpeta/ProyectoGrupal/GestionEStacionamiento/estacionamiento/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/HP/Tercer Ciclo proyectos/Nueva carpeta/ProyectoGrupal/GestionEStacionamiento/estacionamiento/src/main/frontend/generated/jar-resources",
+  "themeName": "default",
+  "clientServiceWorkerSource": "C:\\Users\\HP\\Tercer Ciclo proyectos\\Nueva carpeta\\ProyectoGrupal\\GestionEStacionamiento\\estacionamiento\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
