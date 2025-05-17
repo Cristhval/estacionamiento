@@ -1,5 +1,5 @@
 package com.mistletoe.estaciona.base.models;
 
 public enum TipoEnum {
-    CARRO, MOTO, CAMION, CAUTRIMOTO
+    CARRO, MOTO, CAMION, CUATRIMOTO
 }
