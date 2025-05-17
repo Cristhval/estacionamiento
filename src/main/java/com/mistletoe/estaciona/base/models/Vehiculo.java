@@ -6,7 +6,7 @@ public class Vehiculo {
     private String marca;
     private String modelo;
     private String color;
-    private String tipo;
+    private TipoEnum tipo;
     private Integer idTicket;
     private Integer idPaqueadero;
     private Integer idCliente;
@@ -17,7 +17,7 @@ public class Vehiculo {
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
-        this.tipo = tipo;
+        this.tipo = TipoEnum.valueOf(tipo);
         this.idTicket = idTicket;
         this.idPaqueadero = idPaqueadero;
         this.idCliente = idCliente;
@@ -63,11 +63,11 @@ public class Vehiculo {
         this.color = color;
     }
 
-    public String getTipo() {
+    public TipoEnum getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    public void setTipo(TipoEnum tipo) {
         this.tipo = tipo;
     }
 
