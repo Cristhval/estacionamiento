@@ -5,11 +5,7 @@ public class Parqueadero {
     private String direccion;
     private String nombre;
 
-    public Parqueadero(Integer id, String direccion, String nombre) {
-        this.id = id;
-        this.direccion = direccion;
-        this.nombre = nombre;
-    }
+
 
     public Integer getId() {
         return id;

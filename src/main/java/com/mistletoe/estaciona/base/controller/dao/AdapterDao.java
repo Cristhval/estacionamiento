@@ -34,24 +34,22 @@ public class AdapterDao<T> implements InterfaceDao<T> {
 
     private void saveFile(String data) throws Exception {
         File file = new File(base_path+clazz.getSimpleName()+".json");
-        //file.getParentFile().m
+
         if(!file.exists()) {
             System.out.println("Aqui estoy "+file.getAbsolutePath());
             file.createNewFile();
         }
-        //if(!file.exists()) {
+
             FileWriter fw = new FileWriter(file);
             fw.write(data);
             fw.flush();
             fw.close();    
-            //file.close();
-        //}
+
     }
 
     @Override
     public LinkedList<T> listAll() {
-        // TODO Auto-generated method stub
-        //throw new UnsupportedOperationException("Unimplemented method 'listAll'");
+
         LinkedList<T> lista = new LinkedList<>();
         try {
             String data = readFile();            
@@ -60,15 +58,14 @@ public class AdapterDao<T> implements InterfaceDao<T> {
             
         } catch (Exception e) {
             System.out.println("Error lista"+e.toString());
-            // TODO: handle exception
+
         }
         return lista;
     }
 
     @Override
     public void persist(T obj) throws Exception {
-        // TODO Auto-generated method stub
-        //throw new UnsupportedOperationException("Unimplemented method 'persist'");
+
         LinkedList<T> list = listAll();
         System.out.println("lista lenrhg "+list.getLength());
         list.add(obj);

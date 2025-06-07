@@ -9,7 +9,7 @@ public class DaoUsuario extends AdapterDao<Usuario>{
 
     public DaoUsuario() {
         super(Usuario.class);
-        //TODO Auto-generated constructor stub
+
     }
 
     public Usuario getObj() {
@@ -26,9 +26,9 @@ public class DaoUsuario extends AdapterDao<Usuario>{
             this.persist(obj);
             return true;
         } catch (Exception e) {
-            //TODO
+
             return false;
-            // TODO: handle exception
+
         }
     }
 
@@ -37,9 +37,9 @@ public class DaoUsuario extends AdapterDao<Usuario>{
             this.update(obj, pos);
             return true;
         } catch (Exception e) {
-            //TODO
+
             return false;
-            // TODO: handle exception
+
         }
     }
 }

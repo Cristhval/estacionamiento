@@ -2,16 +2,10 @@ package com.mistletoe.estaciona.base.models;
 
 public abstract class Usuario {
     private Integer id;
-    private String nombre;
-    private String apellido;
-    private String correoElectronico;
+    private String usuario;
+    private String clave;
+    private RolEnum rol;
 
-    public Usuario(Integer id, String nombre, String apellido, String correoElectronico) {
-        this.id = id;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.correoElectronico = correoElectronico;
-    }
 
     public Integer getId() {
         return id;
@@ -21,28 +15,27 @@ public abstract class Usuario {
         this.id = id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getClave() {
+        return clave;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setClave(String clave) {
+        this.clave = clave;
     }
 
-    public String getCorreoElectronico() {
-        return correoElectronico;
+    public RolEnum getRol() {
+        return rol;
     }
 
-    public void setCorreoElectronico(String correoElectronico) {
-        this.correoElectronico = correoElectronico;
+    public void setRol(RolEnum rol) {
+        this.rol = rol;
     }
-
 }

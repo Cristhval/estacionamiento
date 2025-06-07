@@ -6,22 +6,8 @@ public class Vehiculo {
     private String marca;
     private String modelo;
     private String color;
-    private TipoEnum tipo;
-    private Integer idTicket;
-    private Integer idPaqueadero;
-    private Integer idCliente;
+    private Integer id_persona;
 
-    public Vehiculo(Integer id, String placa, String marca, String modelo, String color, String tipo, Integer idTicket, Integer idPaqueadero, Integer idCliente) {
-        this.id = id;
-        this.placa = placa;
-        this.marca = marca;
-        this.modelo = modelo;
-        this.color = color;
-        this.tipo = TipoEnum.valueOf(tipo);
-        this.idTicket = idTicket;
-        this.idPaqueadero = idPaqueadero;
-        this.idCliente = idCliente;
-    }
 
     public Integer getId() {
         return id;
@@ -63,35 +49,12 @@ public class Vehiculo {
         this.color = color;
     }
 
-    public TipoEnum getTipo() {
-        return tipo;
+
+    public Integer getId_persona() {
+        return id_persona;
     }
 
-    public void setTipo(TipoEnum tipo) {
-        this.tipo = tipo;
-    }
-
-    public Integer getIdTicket() {
-        return idTicket;
-    }
-
-    public void setIdTicket(Integer idTicket) {
-        this.idTicket = idTicket;
-    }
-
-    public Integer getIdPaqueadero() {
-        return idPaqueadero;
-    }
-
-    public void setIdPaqueadero(Integer idPaqueadero) {
-        this.idPaqueadero = idPaqueadero;
-    }
-
-    public Integer getIdCliente() {
-        return idCliente;
-    }
-
-    public void setIdCliente(Integer idCliente) {
-        this.idCliente = idCliente;
+    public void setId_Persona(Integer id_Persona) {
+        this.id_persona = id_Persona;
     }
 }

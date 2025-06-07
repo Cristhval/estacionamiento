@@ -2,6 +2,7 @@ package com.mistletoe.estaciona.base.controller.dao.dao_models;
 
 import com.mistletoe.estaciona.base.controller.dao.AdapterDao;
 
+import com.mistletoe.estaciona.base.models.RolEnum;
 import com.mistletoe.estaciona.base.models.Vehiculo;
 
 public class DaoVehiculo extends AdapterDao<Vehiculo>{
@@ -9,10 +10,12 @@ public class DaoVehiculo extends AdapterDao<Vehiculo>{
 
     public DaoVehiculo() {
         super(Vehiculo.class);
-        //TODO Auto-generated constructor stub
+
     }
 
     public Vehiculo getObj() {
+        if (obj == null)
+            this.obj = new Vehiculo();
         return this.obj;
     }
 
@@ -26,9 +29,9 @@ public class DaoVehiculo extends AdapterDao<Vehiculo>{
             this.persist(obj);
             return true;
         } catch (Exception e) {
-            //TODO
+
             return false;
-            // TODO: handle exception
+
         }
     }
 
@@ -37,9 +40,24 @@ public class DaoVehiculo extends AdapterDao<Vehiculo>{
             this.update(obj, pos);
             return true;
         } catch (Exception e) {
-            //TODO
+
             return false;
-            // TODO: handle exception
+
         }
+    }
+
+    public static void main(String[] args) {
+        DaoVehiculo da = new DaoVehiculo();
+        da.getObj().setId(da.listAll().getLength() + 1);
+        da.getObj().setColor("azul");
+        da.getObj().setModelo("hyundai");
+        da.getObj().setPlaca("PLC-123");
+        da.getObj().setMarca("Pepsi");
+        da.getObj().setId_Persona(1);
+
+        if (da.save())
+            System.out.println("GUARDADO");
+        else
+            System.out.println("Hubo un error");
     }
 }
